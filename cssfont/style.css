@@ -120,11 +120,86 @@ div{
 	top: 50px
 	left: 100px;
 }
-
-.boxB {
-		width: 500px;
-	height: 200px;
-	top: 250px;
-	left: 400px;
-}
 */
+.n {
+	left: 384px;
+	top: 10px;
+
+}
+
+.clip3 {
+	width: 156px;
+	height: 212px;
+	background-color: transparent;
+	overflow: hidden;
+}
+
+.n1 {
+	width: 50px;
+	height: 295px;
+	top: -16px;
+	transform: rotate(-36deg);
+	left: 40px;
+}
+
+.n2 {
+	width: 9px;
+	height: 144px;
+	top: 0px;
+	left: 142px;
+	background-color: white;
+	border: 2px solid rgb(0,0,0)
+}
+
+.n3 {
+	width: 12px;
+	height: 15px;
+	top: 139px;
+	left: 137px;
+	background-color: white;
+	border-left: 2px solid rgb(0,0,0);
+		transform: rotate(135deg);
+}
+
+.n4 {
+		width: 74px;
+		height: 72px;
+  left: -45px;
+  top: 136px;
+  border-radius: 50%;
+  border: 2px solid rgb(0,0,0);
+  background-color: transparent;
+}
+
+.g {
+	left: 573px;
+	top: 10px;
+}
+
+.g1 {
+	width: 212px;
+	height: 212px;
+ 	left: 0px;
+ 	border-radius: 50%;
+ 	border: 2px solid rgb(0,0,0);
+ 	background-color: white;
+}
+
+.g2{
+	width: 15px;
+	height: 72px;
+	top: 140px;
+	left: 163px;
+	background-color: transparent;
+	border: 2px solid rgb(0,0,0)
+}
+
+.g3 {
+	width: 36px;
+	height: 123px;
+	top: 48px;
+	left: 156px;
+	background-color: black;
+	transform: rotate(90deg);
+	
+}
