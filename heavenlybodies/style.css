@@ -1,0 +1,205 @@
+.headbox{
+	position: absolute;
+	top: 20px;
+	width: 100vw;
+	left: 0px;
+	height: 80vh;
+	background-color: transparent;
+	overflow: hidden;
+}
+
+.head{
+	width: 100vw;
+}
+
+.redbox{
+	position: absolute;
+	top: 0px;
+	left: 50px;
+	width: 22vw;
+	height: 95vh;
+	background-color: rgb(237, 28, 36);
+
+}
+
+h1 {
+	position: absolute;
+	top: 1vh;
+	left: 47px;
+	width: 23vw;
+	font-size: 60px;
+	text-align: center;
+	font-family: BentonModDisp Semibold;
+	font-weight: 500; 
+	color: white;
+}
+
+h6 {
+	position: absolute;
+	top: 16vh;
+	left: 44px;
+	width: 23vw;
+	font-size: 51px;
+	text-align: center;
+	font-family: BentonModDisp;
+	font-weight: 300; 
+	color: white;
+}
+
+.presented {
+	position: absolute;
+	top: 82vh;
+	left: 44px;
+	width: 23vw;
+	font-size: 19px;
+	line-height: 25px;
+	text-align: center;
+	font-family: open-sans;
+	font-weight: 300; 
+	color: white;
+}
+
+h2{
+	position: absolute;
+	top: 98vh;
+	left: 50px;
+	font-size: 45px;
+	font-family: open-sans;
+	font-weight: 300;
+}
+
+h3{
+	position: absolute;
+	top: 117vh;
+	left: 50px;
+	font-size: 26px;
+	font-family: open-sans;
+	font-weight: 300;
+}
+
+h4{
+	position: absolute;
+	top: 177vh;
+	left: 50px;
+	font-size: 26px;
+	font-family: open-sans;
+	font-weight: 300;
+}
+
+.photo {
+	position: relative;
+	width: 340px;
+	height: 205px;
+	background-color: transparent;
+	overflow: hidden;
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 12px;
+}
+
+.p3{
+	margin-right: 0px;
+}
+
+.topphotos {
+	position: absolute;
+	top: 133vh;
+	left: 0px;
+	right: 0px;
+	width: 1080px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.bottomphotos {
+	position: absolute;
+	top: 195vh;
+	left: 0px;
+	right: 0px;
+	width: 1080px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.p6{
+	margin-right: 0px;
+}
+
+.smallred {
+	position: absolute;
+	top: 1590px;
+	left: 0px;
+	width: 77vw;
+	height: 43px;
+	background-color: rgb(237, 28, 36);
+}
+
+h5 {
+	position: absolute;
+	top: 1550px;
+	left: 50px;
+	font-size: 26px;
+	color: white;
+	font-family: open-sans;
+	font-weight: 300;
+}
+
+p {
+	position: absolute;
+	top: 1654px;
+	left: 90px;
+	font-size: 26px;
+	line-height: 40px;
+	font-family: open-sans;
+	font-weight: 300;
+}
+
+.smallerred {
+	position: absolute;
+	top: 1950px;
+	left: 0px;
+	width: 50vw;
+	height: 43px;
+	background-color: rgb(237, 28, 36);
+}
+
+.met {
+	position: absolute;
+	top: 2000px;
+	margin-right: 0;
+	margin-left: 0;
+	font-family: open-sans;
+	font-weight: 300;
+}
+
+.cloisters{
+	position: absolute;
+	top: 2000px;
+	left: 690px;
+	margin-right: 0;
+	margin-left: 0;
+	font-family: open-sans;
+	font-weight: 300;
+}
+
+/*.blankbox {
+	position: absolute;
+	top: 1950px;
+	left: 0px;
+	width: 50vw;
+	height: 43px;
+	background-color: transparent;
+}*/
+
+/*@media (max-width: 711px){
+	.topphotos{
+		position: absolute;
+		top: 840px;
+		left: 52px;
+		width: 350px;
+	}
+
+	.photo {
+		width: 100vw;
+	}
+}*/
