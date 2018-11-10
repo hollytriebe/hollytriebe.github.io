@@ -16,17 +16,22 @@
 	position: absolute;
 	top: 0px;
 	left: 50px;
-	width: 22vw;
-	height: 95vh;
+	width: 302px;
+	height: 621px;
 	background-color: rgb(237, 28, 36);
 
 }
 
-h1 {
+.smalltitle{
+	top: 0px;
+	left: 0px;
+}
+
+.largetitle {
 	position: absolute;
 	top: 1vh;
 	left: 47px;
-	width: 23vw;
+	width: 306px;
 	font-size: 60px;
 	text-align: center;
 	font-family: BentonModDisp Semibold;
@@ -34,11 +39,11 @@ h1 {
 	color: white;
 }
 
-h6 {
+.largesub {
 	position: absolute;
-	top: 16vh;
+	top: 108px;
 	left: 44px;
-	width: 23vw;
+	width: 322px;
 	font-size: 51px;
 	text-align: center;
 	font-family: BentonModDisp;
@@ -46,11 +51,15 @@ h6 {
 	color: white;
 }
 
+.smallsub {
+	color: transparent;
+}
+
 .presented {
 	position: absolute;
-	top: 82vh;
+	top: 538px;
 	left: 44px;
-	width: 23vw;
+	width: 312px;
 	font-size: 19px;
 	line-height: 25px;
 	text-align: center;
@@ -191,8 +200,127 @@ p {
 	background-color: transparent;
 }*/
 
-/*@media (max-width: 711px){
+@media (max-width: 860px){
+	.redbox {
+		left: 0px;
+		top: 236px;
+		width: 100vw;
+		height: 130px;
+	}
+
+	.largetitle{
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 0px;
+		height: 0px;
+		color: transparent;
+	}
+	
+	.smalltitle{
+	position: absolute;
+	top: 32vh;
+	left: 47px;
+	width: 322px;
+	font-size: 48px;
+	text-align: center;
+	font-family: BentonModDisp Semibold;
+	font-weight: 500; 
+	color: white;
+	}
+
+	.largesub {
+		color: transparent;
+	}
+
+	.smallsub {
+	position: absolute;
+	top: 215px;
+	left: 44px;
+	width: 322px;
+	font-size: 32px;
+	text-align: center;
+	font-family: BentonModDisp;
+	font-weight: 300; 
+	color: white;
+	}
+
+	.presented{
+	color: rgb(0,0,0);
+	position: absolute;
+	top: 415px;
+	left: 44px;
+	}
+
+	h2 {
+		top: 81vh;
+		left: 25px;
+		width: 328px;
+	}
+
+	h3{
+		top: 111vh;
+		left: 25px;
+	}
+
 	.topphotos{
+		position: absolute;
+		top: 820px;
+		/*left: 52px;*/
+		width: 350px;
+	}
+
+	.bottomphotos{
+		top: 253vh;
+		width: 350px;
+	}
+
+	h4{
+		top: 235vh;
+		left: 25px;
+	}
+
+	.smallred{
+		top: 2385px; 
+	}
+
+	h5{
+		top: 2346px;
+	}
+
+	p{
+		top: 2435px;
+	}
+
+	.smallerred{
+		top: 2785px;
+	}
+
+	.met{
+		top: 2840px;
+		left: 50px;
+	}
+
+	.cloisters{
+		top: 3000px;
+		left: 50px;
+	}
+	}
+
+@media (max-width: 735px){
+	.head {
+		position: absolute;
+		top: 0px;
+		width: 735px;
+		right: -126px;
+		height: 388px;
+		background-color: transparent;
+		overflow: hidden;
+	}
+}
+
+
+	/*.topphotos{
 		position: absolute;
 		top: 840px;
 		left: 52px;
