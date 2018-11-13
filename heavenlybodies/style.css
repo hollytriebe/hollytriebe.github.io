@@ -219,7 +219,7 @@ p {
 	
 	.smalltitle{
 	position: absolute;
-	top: 32vh;
+	top: 206px;
 	left: 47px;
 	width: 322px;
 	font-size: 48px;
@@ -253,13 +253,13 @@ p {
 	}
 
 	h2 {
-		top: 81vh;
+		top: 500px;
 		left: 25px;
 		width: 328px;
 	}
 
 	h3{
-		top: 111vh;
+		top: 720px;
 		left: 25px;
 	}
 
@@ -276,7 +276,7 @@ p {
 	}
 
 	h4{
-		top: 235vh;
+		top: 1530px;
 		left: 25px;
 	}
 
@@ -290,6 +290,7 @@ p {
 
 	p{
 		top: 2435px;
+		left: 67px;
 	}
 
 	.smallerred{
