@@ -260,7 +260,7 @@ p {
 
 	h3{
 		top: 720px;
-		left: 25px;
+		left: 27px;
 	}
 
 	.topphotos{
@@ -277,7 +277,7 @@ p {
 
 	h4{
 		top: 1530px;
-		left: 25px;
+		left: 27px;
 	}
 
 	.smallred{
@@ -286,11 +286,12 @@ p {
 
 	h5{
 		top: 2346px;
+		left: 29px;
 	}
 
 	p{
 		top: 2435px;
-		left: 67px;
+		left: 53px;
 	}
 
 	.smallerred{
@@ -299,12 +300,12 @@ p {
 
 	.met{
 		top: 2840px;
-		left: 50px;
+		left: 29px;
 	}
 
 	.cloisters{
 		top: 3000px;
-		left: 50px;
+		left: 29px;
 	}
 	}
 
