@@ -172,6 +172,7 @@ p {
 	background-color: rgb(237, 28, 36);
 }
 
+
 .met {
 	position: absolute;
 	top: 2000px;
@@ -187,6 +188,16 @@ p {
 	left: 690px;
 	margin-right: 0;
 	margin-left: 0;
+	font-family: open-sans, sans-serif;
+	font-weight: 300;
+}
+
+.location {
+	position: absolute;
+	top: 1925px;
+	left: 50px;
+	font-size: 26px;
+	color: white;
 	font-family: open-sans, sans-serif;
 	font-weight: 300;
 }
@@ -294,19 +305,26 @@ p {
 		left: 53px;
 	}
 
+
 	.smallerred{
 		top: 2785px;
 	}
 
 	.met{
 		top: 2840px;
-		left: 29px;
+		left: 53px;
 	}
 
 	.cloisters{
 		top: 3000px;
+		left: 53px;
+	}
+
+	.location {
+		top: 2759px;
 		left: 29px;
 	}
+
 	}
 
 @media (max-width: 735px){
