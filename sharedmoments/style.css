@@ -70,6 +70,14 @@
 	left: -2px;
 }
 
+.dark{
+	opacity: .05;
+}
+
+.bright{
+	transition: all 1500ms ease-in-out;
+	opacity: 1;
+}
 /*.large{
 	position: absolute;
 	top: 0px;
