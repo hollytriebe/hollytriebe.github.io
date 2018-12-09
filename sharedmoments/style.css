@@ -106,12 +106,39 @@ body{
 }
 
 
+.titlebg{
+	position: relative;
+}
 
+.bull{
+	width: 22vw;
+	top: 0px;
+	height: 51vw;
+}
 
+.sphinx{
+	width: 18vw;
+	top: 0px;
+	height: 51vw;
+}
 
+.tower{
+	width: 14vw;
+	top: 0px;
+	height: 51vw;
+}
 
+.four{
+	width: 19vw;
+	top: 0px;
+	height: 51vw;
+}
 
-
+.right{
+	width: 25vw;
+	top: 0px;
+	height: 51vw;
+}
 
 /*.bg{
 	position: absolute;
