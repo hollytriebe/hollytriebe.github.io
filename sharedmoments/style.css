@@ -27,12 +27,23 @@ body{
 	top: 320px;
 }
 
+.top2bg{
+	position: absolute;
+	top: 706px;
+}
+
 .bottom{
 	position: relative;
 	float: left;
 	margin-left: 15px;
 
 }
+
+.bottom2bg{
+	position: absolute;
+	top: 1017px;
+}
+
 .bsmall{
 	top: 75px;
 
@@ -42,6 +53,18 @@ body{
 	position: absolute;
 	left: -14px;
 	top: 28px;
+}
+
+.top2pics{
+	position: absolute;
+	left: -14px;
+	top: 725px;
+}
+
+.stop2pics{
+	position: absolute;
+	left: -14px;
+	top: 864px;
 }
 
 .ltp{
@@ -54,6 +77,18 @@ body{
 	position: absolute;
 	left: -17px;
 	top: 343px;
+}
+
+.bottom2pics{
+	position: absolute;
+	left: -17px;
+	top: 1040px;
+}
+
+.sbottom2pics{
+	position: absolute;
+	left: -17px;
+	top: 1180px;
 }
 
 .lbp{
@@ -95,14 +130,18 @@ body{
 	font-style: normal;
 	top: -44px;
 	left: 163px;
-	font-size: 62px;
+	font-size: 72px;
+	color: rgb(229, 233, 234);
 }
 
 
 .icon{
 	position: absolute;
-	top: 10px;
-	left: 25px;
+	top: 17px;
+	left: 14px;
+	width: 98px;
+	height: 88px;
+	background-color: transparent;
 }
 
 
@@ -138,6 +177,62 @@ body{
 	width: 25.7vw;
 	top: 0px;
 	height: 51vw;
+}
+
+.wood{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-image: url("title page3.jpg");
+	background-size: contain;
+	background-position: center;
+}
+
+.red{
+	position: absolute;
+	top: 17px;
+	left: 15px;
+	width: 18px;
+	height: 88px;
+	background-color: rgb(217, 21, 5);
+}
+
+.redorange{
+	position: absolute;
+	top: 17px;
+	left: 40px;
+	width: 12px;
+	height: 88px;
+	background-color: rgb(255, 130, 0);
+}
+
+.orange{
+	position: absolute;
+	top: 17px;
+	left: 60px;
+	width: 12px;
+	height: 88px;
+	background-color: rgb(255, 178, 0);
+}
+
+.green{
+	position: absolute;
+	top: 17px;
+	left: 80px;
+	width: 12px;
+	height: 88px;
+	background-color: rgb(0, 176, 65);
+}
+
+.blue{
+	position: absolute;
+	top: 17px;
+	left: 100px;
+	width: 12px;
+	height: 88px;
+	background-color: rgb(2, 162, 224);
 }
 
 /*.bg{

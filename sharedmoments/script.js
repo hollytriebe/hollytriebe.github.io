@@ -30,4 +30,34 @@ $(document).ready(function(){
 	  $(".pic10").mouseenter(function() {
 	    $(".pic10").addClass("bright");
 	  });
-});
+		  $(".pic11").mouseenter(function() {
+	    $(".pic11").addClass("bright");
+	  });
+	  $(".pic12").mouseenter(function() {
+	    $(".pic12").addClass("bright");
+	  });
+	  $(".pic13").mouseenter(function() {
+	    $(".pic13").addClass("bright");
+	  });
+	  $(".pic14").mouseenter(function() {
+	    $(".pic14").addClass("bright");
+	  });
+	  $(".pic15").mouseenter(function() {
+	    $(".pic15").addClass("bright");
+	  });
+	  $(".pic16").mouseenter(function() {
+	    $(".pic16").addClass("bright");
+	  });
+	  $(".pic17").mouseenter(function() {
+	    $(".pic17").addClass("bright");
+	  });
+	  $(".pic18").mouseenter(function() {
+	    $(".pic18").addClass("bright");
+	  });
+	  $(".pic19").mouseenter(function() {
+	    $(".pic19").addClass("bright");
+	  });
+	  $(".pic20").mouseenter(function() {
+	    $(".pic20").addClass("bright");
+	  });
+	});
