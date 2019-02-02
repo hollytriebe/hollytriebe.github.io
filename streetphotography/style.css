@@ -16,6 +16,8 @@ body{
 
 .yellowbox{
 	position: absolute;
+	top: 0px;
+	left: 0px;
 	width: 100vw;
 	height: 125px;
 	background-color: rgb(250, 221, 113); 
@@ -25,29 +27,29 @@ body{
 .look{ 
 	position: absolute; 
 	top: -44px;
-	left: 292px;
-	font-family: benton-modern-display, serif;
-	font-weight: 500;
+	left: 284px;
+	font-family: baskerville-display-pt, serif;
+	font-weight: 700;
 	font-style: normal;
 	font-size: 85px;
 	text-align: center;
 
 }
 
-img{
+.cover{
 	position: absolute;
 	top: 125px;
 }
 
 h1{
 	position: absolute;
-	font-family: benton-modern-display, serif;
-	font-weight: 400;
+	font-family: baskerville-display-pt, serif;
+	font-weight: 700;
 	font-style: normal;
-	font-size: 70px;
+	font-size: 83px;
 	text-align: center;
-	top: 850px;
-	left: 180px;
+	top: 846px;
+	left: 65px;
 
 }
 
@@ -62,8 +64,56 @@ h2{
 	font-family: gill-sans-nova, sans-serif;
 	font-weight: 100;
 	font-style: normal;
-	font-size: 50px;
-	top: 945px;
-	left: 335px;
+	font-size: 57px;
+	top: 949px;
+	left: 311px;
 }
 
+p{
+	position: relative;
+	margin-top: 20px;
+	margin-left: 70px;
+	width: 85vw;
+	font-family: gill-sans-nova, sans-serif;
+	font-weight: 100;
+	font-style: normal;
+	font-size: 20px;
+	top: 1135px;
+}
+
+.pullquote{
+	font-size: 70px;
+	font-family: baskerville-display-pt, serif;
+	font-weight: 700;
+	font-style: normal;
+
+}
+
+.links{
+	position: absolute;
+}
+
+.linkA{
+	top: 11365px;
+}
+
+.linkB{
+	top: 11730px
+}
+
+.linkC{
+	top: 12095px;
+}
+
+.linkE{
+	top: 11000px;
+}
+
+.sideA{
+	position: absolute;
+	height: 700px;
+	width: 100px;
+	background-color: black;
+	top: 500px;
+	left: 700px;
+}
