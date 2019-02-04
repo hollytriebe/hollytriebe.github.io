@@ -26,7 +26,7 @@ body{
 
 .look{ 
 	position: absolute; 
-	top: -44px;
+	top: -72px;
 	left: 284px;
 	font-family: baskerville-display-pt, serif;
 	font-weight: 700;
@@ -37,19 +37,21 @@ body{
 }
 
 .cover{
-	position: absolute;
-	top: 125px;
+	position: relative;
+	margin-top: 125px;
+	/*position: absolute;
+	top: 125px;*/
 }
 
 h1{
-	position: absolute;
+	position: relative;
 	font-family: baskerville-display-pt, serif;
 	font-weight: 700;
 	font-style: normal;
 	font-size: 83px;
 	text-align: center;
-	top: 846px;
-	left: 65px;
+	margin-top: 85px;
+	/*left: 65px;*/
 
 }
 
@@ -60,13 +62,15 @@ h1{
 }
 
 h2{
-	position: absolute;
+	position: relative;
 	font-family: gill-sans-nova, sans-serif;
 	font-weight: 100;
 	font-style: normal;
 	font-size: 57px;
-	top: 949px;
-	left: 311px;
+	text-align: center;
+	margin-top: -40px;
+	/*top: 949px;
+	left: 311px;*/
 }
 
 p{
@@ -79,7 +83,7 @@ p{
 	font-weight: 100;
 	font-style: normal;
 	font-size: 20px;
-	top: 1135px;
+	
 }
 
 .pullquote{
@@ -93,9 +97,11 @@ p{
 }
 
 .links{
-	position: absolute;
+	position: relative;
+	margin-top: 80px
 }
 
+/*
 .linkA{
 	top: 11365px;
 }
@@ -120,3 +126,5 @@ p{
 	top: 500px;
 	left: 700px;
 }
+
+*/
