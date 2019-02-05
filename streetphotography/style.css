@@ -101,6 +101,49 @@ p{
 	margin-top: 80px
 }
 
+.homebg{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 127vw;
+	height: 127vh;
+	background-size: contain;
+	background-position: center;
+}
+
+.yellowboxhome{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 127vw;
+	height: 75px;
+	background-color: rgb(250, 221, 113); 
+}
+
+.lookhome{
+	position: absolute; 
+	top: -80px;
+	left: 96px;
+	font-family: baskerville-display-pt, serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 54px;
+	text-align: center;
+}
+
+.homebox{
+	position: absolute;
+	height: 90px;
+	width: 389px;
+	top: 495px;
+
+	background-color: black;
+}
+
+.homelink{
+	position: relative;
+	margin-top: 20px;
+}
 /*
 .linkA{
 	top: 11365px;
