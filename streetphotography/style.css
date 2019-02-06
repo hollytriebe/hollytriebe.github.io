@@ -155,9 +155,9 @@ p{
 	position: absolute;
 	margin-right: 20px;
 	width: 190px;
-	height: 2316px;
-	top: 4718px;
-	left: 790px;
+	height: 2586px;
+	top: 10071px;
+	left: 0px; 
 	background-color: blue;
 }
 
@@ -170,16 +170,23 @@ p{
 .winosideA{
 	position: absolute;
 	margin-right: 20px;
-	top: 1860px;
+	top: 1889px;
 	left: 0px;
 }
 
+
+
 .winosideB{
 	position: absolute;
-	top: 4718px;
+	top: 5013px;
 	left: 790px;
+	height: 2897px;
 }
 
+.winosideC{
+	position: absolute;
+	top: 9786px;
+}
 /*
 .linkA{
 	top: 11365px;
