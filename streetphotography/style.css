@@ -1,6 +1,6 @@
-body{
-
-	margin: 0px;
+html, body {
+  overflow-x: hidden;
+  margin: 0px;
 }
 
 .bgbox{
@@ -154,9 +154,9 @@ p{
 	position: absolute;
 	margin-right: 20px;
 	width: 190px;
-	height: 1404px;
-	top: 1860px;
-	left: 0px;
+	height: 2316px;
+	top: 4718px;
+	left: 790px;
 	background-color: blue;
 }
 
@@ -171,6 +171,12 @@ p{
 	margin-right: 20px;
 	top: 1860px;
 	left: 0px;
+}
+
+.winosideB{
+	position: absolute;
+	top: 4718px;
+	left: 790px;
 }
 
 /*
