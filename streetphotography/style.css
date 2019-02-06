@@ -144,6 +144,11 @@ p{
 	position: relative;
 	margin-top: 20px;
 }
+
+.coverlinks{
+	position: absolute;
+	top: 984px;
+}
 /*
 .linkA{
 	top: 11365px;
