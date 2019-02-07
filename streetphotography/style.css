@@ -156,8 +156,8 @@ p{
 	margin-right: 20px;
 	width: 190px;
 	height: 2586px;
-	top: 10071px;
-	left: 0px; 
+	top: 10521px;
+	left: 80px; 
 	background-color: blue;
 }
 
@@ -186,6 +186,24 @@ p{
 .winosideC{
 	position: absolute;
 	top: 9786px;
+}
+
+.franksideA{
+	position: absolute;
+	top: 1837px;
+	left: 0px;
+}
+
+.franksideB{
+	position: absolute;
+	left: 790px;
+	top: 7521px;
+}
+
+.franksideC{
+	position: absolute;
+	top: 10566px;
+	left: 0px;
 }
 /*
 .linkA{
