@@ -156,7 +156,7 @@ p{
 	margin-right: 20px;
 	width: 190px;
 	height: 1500px;
-	top: 9126px;
+	top: 8762px;
 	left: 90px; 
 	background-color: blue;
 }
@@ -239,6 +239,24 @@ p{
 .levittsideC{
 	position: absolute;
 	top: 9126px;
+	left: 0px;
+}
+
+.streetsideA{
+	position: absolute;
+	top: 2136px;
+	left: 0px;
+}
+
+.streetsideB{
+	position: absolute;
+	top: 6108px;
+	left: 790px;
+}
+
+.streetsideC{
+	position: absolute;
+	top: 8762px;
 	left: 0px;
 }
 /*
