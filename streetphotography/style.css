@@ -155,8 +155,8 @@ p{
 	position: absolute;
 	margin-right: 20px;
 	width: 190px;
-	height: 2586px;
-	top: 6845px;
+	height: 1500px;
+	top: 9126px;
 	left: 90px; 
 	background-color: blue;
 }
@@ -221,6 +221,24 @@ p{
 .maiersideC{
 	position: absolute;
 	top: 6845px;
+	left: 0px;
+}
+
+.levittsideA{
+	position: absolute;
+	top: 1487px;
+	left: 0px;
+}
+
+.levittsideB{
+	position: absolute;
+	top: 4213px;
+	left: 790px;
+}
+
+.levittsideC{
+	position: absolute;
+	top: 9126px;
 	left: 0px;
 }
 /*
