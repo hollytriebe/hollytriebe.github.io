@@ -156,8 +156,8 @@ p{
 	margin-right: 20px;
 	width: 190px;
 	height: 2586px;
-	top: 10521px;
-	left: 80px; 
+	top: 6845px;
+	left: 90px; 
 	background-color: blue;
 }
 
@@ -203,6 +203,24 @@ p{
 .franksideC{
 	position: absolute;
 	top: 10566px;
+	left: 0px;
+}
+
+.maiersideA{
+	position: absolute;
+	top: 2142px;
+	left: 0px;
+}
+
+.maiersideB{
+	position: absolute;
+	top: 4844px;
+	left: 790px;
+}
+
+.maiersideC{
+	position: absolute;
+	top: 6845px;
 	left: 0px;
 }
 /*
