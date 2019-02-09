@@ -259,6 +259,29 @@ p{
 	top: 8762px;
 	left: 0px;
 }
+
+.gallery{
+	position: relative;
+	margin-top: 80px;
+	width: 980px;
+}
+
+.smallblue{
+	position: relative;
+	float: left;
+	width: 300px;
+	height: 300px;
+	margin-right: 40px;
+	background-color: blue;
+}
+
+.rightbox{
+	margin-right: 0px;
+}
+
+
+
+
 /*
 .linkA{
 	top: 11365px;
