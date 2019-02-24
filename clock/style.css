@@ -1,14 +1,268 @@
 body{
-	background-color: black;
+	background-color: rgb(154,194,204);
+	opacity: 1;
+	animation-name: flash;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+	animation-delay: 9s;
 }
 
-.bluecircle{
+.everthing{
+	position: absolute;
+	top: 50px;
+}
+
+.boxes{
 	position: absolute;
 	top: 0px;
-	left: 200px;
-	width: 400px;
-	height: 400px;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+	width: 910px;
+	height: 350px;
+	margin: auto;
+}
+
+.flashscreen{
+	position: relative;
+	float: left;
+	width: 300px;
+	height: 500px;
+	margin-right: 55px; 
+	background-color: rgb(239,238,230);
+}
+
+.lights{
+	width: 150px;
+	height: 300px;
+}
+
+.rightlight{
+	margin-right: 0px;
+}
+
+.screen{
+	background-color: rgb(73,64,72);
+	top: -25px;
+	height: 350px;
+	width: 500px;
+}
+
+	/*position: absolute;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+	width: 910px;
+	height: 350px;
+	margin: auto;*/
+
+.whitecircle{
+	position: absolute;
+	top: -50px;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+	width: 325px;
+	height: 325px;
 	border-radius: 50%;
-	background-color: rgb(0, 17, 170);
+	background-color: rgb(239,238,230);
+	margin: auto;
+}
+
+.numbercircle{
+	position: absolute;
+	top: -50px;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+	width: 325px;
+	height: 325px;
+	border-radius: 50%;
+	background-color: transparent;
+	margin: auto;
+	overflow: hidden;
+	animation-name: rotation;
+  	animation-duration: 1s;
+  	animation-timing-function: linear;
+  	animation-iteration-count: 9;
+}
+
+.redline{
+	position: absolute;
+	top: -209px;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+	width: 10px;
+	height: 200px;
+	background-color: red;
+	margin: auto;
+
+}
+
+.number{
+	position: absolute;
+	top: -169px;
+	left: 585px;
+	bottom: 0px;
+	right: 0px;
+	font-family: helvetica;
+	font-size: 300px;
+	font-weight: 500;
+	color: black;
+}
+
+.nine{
+	opacity: 0;
+	animation-name: one;
+  	animation-duration: 1s;
+  	animation-timing-function: linear;
+  	animation-iteration-count: 1;
+  	animation-duration: 1s;
+}
+
+.eight{
+	opacity: 0;
+	animation-name: one;
+  	animation-duration: 1s;
+  	animation-timing-function: linear;
+  	animation-iteration-count: 1;
+  	animation-duration: 1s;
+  	animation-delay: 1s;
+}
+
+.seven{
+	opacity: 0;
+	animation-name: one;
+  	animation-duration: 1s;
+  	animation-timing-function: linear;
+  	animation-iteration-count: 1;
+  	animation-duration: 1s;
+  	animation-delay: 2s;
+}
+
+.six{
+	opacity: 0;
+	animation-name: one;
+  	animation-duration: 1s;
+  	animation-timing-function: linear;
+  	animation-iteration-count: 1;
+  	animation-duration: 1s;
+  	animation-delay: 3s;
+}
+
+.five{
+	opacity: 0;
+	animation-name: one;
+  	animation-duration: 1s;
+  	animation-timing-function: linear;
+  	animation-iteration-count: 1;
+  	animation-duration: 1s;
+  	animation-delay: 4s;
+}
+
+.four{
+	opacity: 0;
+	animation-name: one;
+  	animation-duration: 1s;
+  	animation-timing-function: linear;
+  	animation-iteration-count: 1;
+  	animation-duration: 1s;
+  	animation-delay: 5s;
+}
+
+.three{
+	opacity: 0;
+	animation-name: one;
+  	animation-duration: 1s;
+  	animation-timing-function: linear;
+  	animation-iteration-count: 1;
+  	animation-duration: 1s;
+  	animation-delay: 6s;
+}
+
+.two{
+	opacity: 0;
+	animation-name: one;
+  	animation-duration: 1s;
+  	animation-timing-function: linear;
+  	animation-iteration-count: 1;
+  	animation-duration: 1s;
+  	animation-delay: 7s;
+}
+
+.one{
+	opacity: 0;
+	animation-name: one;
+  	animation-duration: 1s;
+  	animation-timing-function: linear;
+  	animation-iteration-count: 1;
+  	animation-duration: 1s;
+  	animation-delay: 8s;
+}
+
+.slot{
+	position: absolute;
+	top: 460px;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+	width: 200px;
+	height: 50px; 
+	margin-top: 50px;
+	border: 10px solid rgb(73,64,72);
+	margin: auto;
+}
+
+.slotbg{
+	position: absolute;
+	top: 465px;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+	width: 217px;
+	height: 62px; 
+	margin-top: 50px;
+	background-color: black;
+	margin: auto;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes flash {
+	0% {
+		opacity: 1;
+	}	
+	50% {
+		opacity: .15;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+
+@keyframes one {
+	0% {
+		opacity: 0;
+	}	
+	1% {
+		opacity: 1;
+	}
+	99% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
 
 }
