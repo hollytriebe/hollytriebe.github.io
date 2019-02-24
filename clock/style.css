@@ -8,10 +8,6 @@ body{
 	animation-delay: 9s;
 }
 
-.everthing{
-	position: absolute;
-	top: 50px;
-}
 
 .boxes{
 	position: absolute;
@@ -203,27 +199,53 @@ body{
   	animation-delay: 8s;
 }
 
-.slot{
+.slottop{
 	position: absolute;
-	top: 460px;
-	left: 0px;
+	top: 425px;
+	left: 302px;
 	bottom: 0px;
 	right: 0px;
 	width: 200px;
-	height: 50px; 
+	height: 42px; 
 	margin-top: 50px;
-	border: 10px solid rgb(73,64,72);
+	background-color: rgb(73,64,72);
 	margin: auto;
 }
 
-.slotbg{
+.slotbgtop{
 	position: absolute;
-	top: 465px;
-	left: 0px;
+	top: 435px;
+	left: 303px;
 	bottom: 0px;
 	right: 0px;
-	width: 217px;
-	height: 62px; 
+	width: 175px;
+	height: 24px; 
+	margin-top: 50px;
+	background-color: black;
+	margin: auto;
+}
+
+.slotbottom{
+	position: absolute;
+	top: 508px;
+	left: 302px;
+	bottom: 0px;
+	right: 0px;
+	width: 200px;
+	height: 42px; 
+	margin-top: 50px;
+	background-color: rgb(73,64,72);
+	margin: auto;
+}
+
+.slotbgbottom{
+	position: absolute;
+	top: 489px;
+	left: 303px;
+	bottom: 0px;
+	right: 0px;
+	width: 175px;
+	height: 31px; 
 	margin-top: 50px;
 	background-color: black;
 	margin: auto;
