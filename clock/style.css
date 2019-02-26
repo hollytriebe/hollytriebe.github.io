@@ -1,17 +1,25 @@
 body{
 	background-color: rgb(154,194,204);
-	opacity: 1;
-	animation-name: flash;
+/*	animation-name: flash;
 	animation-duration: 2s;
 	animation-iteration-count: 1;
 	animation-fill-mode: forwards;
-	animation-delay: 10s;
+	animation-delay: 10s;*/
 }
 
+.bgfiller{
+	position: absolute;
+	background-color: rgb(154,194,204);
+	top: 414px;
+	left: 789px;
+	height: 93px;
+	width: 110px;
+
+}
 
 .boxes{
 	position: absolute;
-	top: 0px;
+	top: -100px;
 	left: 0px;
 	bottom: 0px;
 	right: 0px;
@@ -61,7 +69,7 @@ body{
 
 .whitecircle{
 	position: absolute;
-	top: -50px;
+	top: -150px;
 	left: 0px;
 	bottom: 0px;
 	right: 0px;
@@ -75,7 +83,7 @@ body{
 
 .outline{
 	position: absolute;
-	top: -50px;
+	top: -150px;
 	left: 0px;
 	bottom: 0px;
 	right: 0px;
@@ -89,7 +97,7 @@ body{
 
 .numbercircle{
 	position: absolute;
-	top: -50px;
+	top: -150px;
 	left: 0px;
 	bottom: 0px;
 	right: 0px;
@@ -99,6 +107,9 @@ body{
 	background-color: transparent;
 	margin: auto;
 	overflow: hidden;
+}
+
+.numbercircle.active{
 	animation-name: rotation;
   	animation-duration: 1s;
   	animation-timing-function: linear;
@@ -113,15 +124,15 @@ body{
 	right: 0px;
 	width: 10px;
 	height: 200px;
-	background-color: red;
+	background-color: rgb(239,15,58);
 	margin: auto;
 
 }
 
 .number{
 	position: absolute;
-	top: -169px;
-	left: 585px;
+	top: -220px;
+	left: 592.6px;
 	bottom: 0px;
 	right: 0px;
 	font-family: helvetica;
@@ -130,8 +141,7 @@ body{
 	color: black;
 }
 
-.nine{
-	opacity: 0;
+.number.active{
 	animation-name: one;
   	animation-duration: 1s;
   	animation-timing-function: linear;
@@ -139,97 +149,56 @@ body{
   	animation-duration: 1s;
 }
 
+.nine{
+	opacity: 0;
+}
+
 .eight{
 	opacity: 0;
-	animation-name: one;
-  	animation-duration: 1s;
-  	animation-timing-function: linear;
-  	animation-iteration-count: 1;
-  	animation-duration: 1s;
   	animation-delay: 1s;
 }
 
 .seven{
 	opacity: 0;
-	animation-name: one;
-  	animation-duration: 1s;
-  	animation-timing-function: linear;
-  	animation-iteration-count: 1;
-  	animation-duration: 1s;
   	animation-delay: 2s;
 }
 
 .six{
 	opacity: 0;
-	animation-name: one;
-  	animation-duration: 1s;
-  	animation-timing-function: linear;
-  	animation-iteration-count: 1;
-  	animation-duration: 1s;
   	animation-delay: 3s;
 }
 
 .five{
 	opacity: 0;
-	animation-name: one;
-  	animation-duration: 1s;
-  	animation-timing-function: linear;
-  	animation-iteration-count: 1;
-  	animation-duration: 1s;
   	animation-delay: 4s;
 }
 
 .four{
 	opacity: 0;
-	animation-name: one;
-  	animation-duration: 1s;
-  	animation-timing-function: linear;
-  	animation-iteration-count: 1;
-  	animation-duration: 1s;
   	animation-delay: 5s;
 }
 
 .three{
 	opacity: 0;
-	animation-name: one;
-  	animation-duration: 1s;
-  	animation-timing-function: linear;
-  	animation-iteration-count: 1;
-  	animation-duration: 1s;
   	animation-delay: 6s;
 }
 
 .two{
 	opacity: 0;
-	animation-name: one;
-  	animation-duration: 1s;
-  	animation-timing-function: linear;
-  	animation-iteration-count: 1;
-  	animation-duration: 1s;
   	animation-delay: 7s;
 }
 
 .one{
 	opacity: 0;
-	animation-name: one;
-  	animation-duration: 1s;
-  	animation-timing-function: linear;
-  	animation-iteration-count: 1;
-  	animation-duration: 1s;
   	animation-delay: 8s;
 }
 
 .smile{
 	opacity: 0;
-	animation-name: one;
-  	animation-duration: 1s;
-  	animation-timing-function: linear;
-  	animation-iteration-count: 1;
-  	animation-duration: 1s;
   	animation-delay: 9s;
 
   	position: absolute;
-	top: 177px;
+	top: 130px;
 	left: 552px;
 	bottom: 0px;
 	right: 0px;
@@ -239,9 +208,41 @@ body{
 	color: black;
 }
 
+.smile.active{
+	animation-name: one;
+  	animation-duration: 1s;
+  	animation-timing-function: linear;
+  	animation-iteration-count: 1;
+  	animation-duration: 1s;
+}
+
+.bottomred{
+	position: absolute;
+	top: 484px;
+	left: 480px;
+	width: 145px;
+	height: 78px;
+	border-radius: 50%;
+	background-color: rgb(188,4,49);
+}
+
+.topred{
+	position: absolute;
+	top: 473px;
+	left: 480px;
+	width: 145px;
+	height: 78px;
+	border-radius: 50%;
+	background-color: rgb(239,15,58);
+}
+
+.reddown{
+	top: 484px;
+}
+
 .slottop{
 	position: absolute;
-	top: 425px;
+	top: 330px;
 	left: 302px;
 	bottom: 0px;
 	right: 0px;
@@ -254,20 +255,35 @@ body{
 
 .slotbgtop{
 	position: absolute;
-	top: 435px;
+	top: 347px;
 	left: 303px;
 	bottom: 0px;
 	right: 0px;
 	width: 175px;
-	height: 24px; 
+	height: 27px; 
 	margin-top: 50px;
 	background-color: black;
+	overflow: hidden;
 	margin: auto;
+}
+
+.strip{
+	position: absolute;
+	top: 337px;
+	left: 790px;
+}
+
+.strip.active{
+	animation-name: print;
+  	animation-duration: 3s;
+  	animation-timing-function: linear;
+  	animation-iteration-count: 1;
+  	animation-delay: 11s;
 }
 
 .slotbottom{
 	position: absolute;
-	top: 508px;
+	top: 413px;
 	left: 302px;
 	bottom: 0px;
 	right: 0px;
@@ -280,7 +296,7 @@ body{
 
 .slotbgbottom{
 	position: absolute;
-	top: 489px;
+	top: 394px;
 	left: 303px;
 	bottom: 0px;
 	right: 0px;
@@ -289,6 +305,42 @@ body{
 	margin-top: 50px;
 	background-color: black;
 	margin: auto;
+}
+
+.flashboxleft{
+	position: absolute;
+	width: 85px;
+	height: 85px;
+	top: 252px;
+	left: 260px;
+	opacity: .7;
+	background-color: rgb(239,238,230);
+}
+
+.flashboxright{
+	position: absolute;
+	width: 85px;
+	height: 85px;
+	top: 252px;
+	left: 1022px;
+	opacity: .7;
+	background-color: rgb(239,238,230);
+}
+
+.flashboxleft.active{
+	animation-name: bright;
+  	animation-duration: .7s;
+  	animation-timing-function: linear;
+  	animation-iteration-count: 1;
+  	animation-delay: 10s;
+}
+
+.flashboxright.active{
+	animation-name: bright;
+  	animation-duration: .7s;
+  	animation-timing-function: linear;
+  	animation-iteration-count: 1;
+  	animation-delay: 10s;
 }
 
 @keyframes rotation {
@@ -300,18 +352,6 @@ body{
   }
 }
 
-@keyframes flash {
-	0% {
-		opacity: 1;
-	}	
-	50% {
-		opacity: .15;
-	}
-	100% {
-		opacity: 1;
-	}
-
-}
 
 @keyframes one {
 	0% {
@@ -329,7 +369,19 @@ body{
 
 }
 
-/*@keyframes lights {
+@keyframes bright {
+	0%{
+		transform: scale(1);
+	}
+	50%{
+		transform: scale(10);
+	}
+	100%{
+		transform: scale(1);
+	}
+}
+
+@keyframes lights {
 	0% {
 		width: 150px;
 		height: 300px;
@@ -343,5 +395,15 @@ body{
 		height: 300px;
 	}
 
-}*/
+}
+
+@keyframes print {
+	0% {
+		top: 337px;
+	}
+	100% {
+		top: 490px;
+	}
+
+}
 
