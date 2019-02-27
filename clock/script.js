@@ -4,6 +4,10 @@ $(document).ready(function(){
     	$(".topred").toggleClass("reddown"); 
 	  });
 
+	 $(".curtain").click(function(){
+	 	$(".curtain").addClass("active");
+	 })
+
 	 $(".topred").click(function(){
 	 	$(".numbercircle").addClass("active");
 	 	$(".number").addClass("active");
@@ -17,6 +21,7 @@ $(document).ready(function(){
 	 		$(".smile").removeClass("active");
 	 		$(".flashboxleft").removeClass("active");
 	 		$(".flashboxright").removeClass("active");
-  		}, 15000);
+	 		$(".strip").removeClass("active");
+  		}, 19000);
 	 })
 });

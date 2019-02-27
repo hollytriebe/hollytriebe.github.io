@@ -311,7 +311,7 @@ body{
 	position: absolute;
 	width: 85px;
 	height: 85px;
-	top: 252px;
+	top: 209px;
 	left: 260px;
 	opacity: .7;
 	background-color: rgb(239,238,230);
@@ -321,7 +321,7 @@ body{
 	position: absolute;
 	width: 85px;
 	height: 85px;
-	top: 252px;
+	top: 209px;
 	left: 1022px;
 	opacity: .7;
 	background-color: rgb(239,238,230);
@@ -342,6 +342,20 @@ body{
   	animation-iteration-count: 1;
   	animation-delay: 10s;
 }
+
+.curtain{
+	position: absolute;
+	top: -134px;
+	left: -70px;
+}
+
+.curtain.active{
+	animation-name: curtain;
+  	animation-duration: 2s;
+  	animation-timing-function: linear;
+  	animation-iteration-count: 1;
+}
+
 
 @keyframes rotation {
   0% {
@@ -374,7 +388,7 @@ body{
 		transform: scale(1);
 	}
 	50%{
-		transform: scale(10);
+		transform: scale(12);
 	}
 	100%{
 		transform: scale(1);
@@ -397,6 +411,7 @@ body{
 
 }
 
+
 @keyframes print {
 	0% {
 		top: 337px;
@@ -405,5 +420,14 @@ body{
 		top: 490px;
 	}
 
+}
+
+@keyframes curtain {
+	0% {
+		left: -70px;
+	}
+	100% {
+		left: -1468px;
+	}
 }
 
