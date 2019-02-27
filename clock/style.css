@@ -11,9 +11,9 @@ body{
 	position: absolute;
 	background-color: rgb(154,194,204);
 	top: 414px;
-	left: 789px;
+	left: 756px;
 	height: 93px;
-	width: 110px;
+	width: 135px;
 
 }
 
@@ -234,6 +234,7 @@ body{
 	height: 78px;
 	border-radius: 50%;
 	background-color: rgb(239,15,58);
+	cursor: pointer;
 }
 
 .reddown{
@@ -270,7 +271,7 @@ body{
 .strip{
 	position: absolute;
 	top: 337px;
-	left: 790px;
+	left: 782px;
 }
 
 .strip.active{
@@ -348,6 +349,7 @@ body{
 	position: absolute;
 	top: -134px;
 	left: -70px;
+	cursor: pointer;
 }
 
 .curtain.active{
