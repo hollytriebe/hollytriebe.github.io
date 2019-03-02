@@ -1,5 +1,8 @@
 body{
 	background-color: rgb(154,194,204);
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
 /*	animation-name: flash;
 	animation-duration: 2s;
 	animation-iteration-count: 1;
@@ -132,9 +135,11 @@ body{
 .number{
 	position: absolute;
 	top: -220px;
-	left: 592.6px;
+	left: 599px;
 	bottom: 0px;
 	right: 0px;
+	width: 75px;
+	text-align: center;
 	font-family: helvetica;
 	font-size: 300px;
 	font-weight: 500;
@@ -199,9 +204,11 @@ body{
 
   	position: absolute;
 	top: 130px;
-	left: 543px;
+	left: 552px;
 	bottom: 0px;
 	right: 0px;
+	width: 75px;
+	text-align: center;
 	font-family: helvetica;
 	font-size: 80px;
 	font-weight: 500;
@@ -244,7 +251,7 @@ body{
 .slottop{
 	position: absolute;
 	top: 330px;
-	left: 302px;
+	left: 301px;
 	bottom: 0px;
 	right: 0px;
 	width: 200px;
@@ -271,7 +278,7 @@ body{
 .strip{
 	position: absolute;
 	top: 337px;
-	left: 782px;
+	left: 790px;
 }
 
 .strip.active{
@@ -286,7 +293,7 @@ body{
 .slotbottom{
 	position: absolute;
 	top: 413px;
-	left: 302px;
+	left: 301px;
 	bottom: 0px;
 	right: 0px;
 	width: 200px;
@@ -331,7 +338,7 @@ body{
 
 .flashboxleft.active{
 	animation-name: bright;
-  	animation-duration: .7s;
+  	animation-duration: .4s;
   	animation-timing-function: linear;
   	animation-iteration-count: 1;
   	animation-delay: 10s;
@@ -339,7 +346,7 @@ body{
 
 .flashboxright.active{
 	animation-name: bright;
-  	animation-duration: .7s;
+  	animation-duration: .4s;
   	animation-timing-function: linear;
   	animation-iteration-count: 1;
   	animation-delay: 10s;
@@ -350,15 +357,37 @@ body{
 	top: -134px;
 	left: -70px;
 	cursor: pointer;
+	animation-name: curtainauto;
+  	animation-duration: .7s;
+  	animation-timing-function: ease-in;
+  	animation-fill-mode: forwards;
+  	animation-iteration-count: 1;
+  	animation-delay: 0.5s;
 }
 
-.curtain.active{
+.push{
+	position: absolute;
+	text-align: center;
+	font-family: helvetica;
+	font-size: 27px;
+	font-weight: 500;
+	color: rgb(152,4,49);
+	top: 469px;
+	left: 514px;
+	cursor: pointer;
+}
+
+.pushdown{
+	opacity: 0;
+}
+
+/*.curtain.active{
 	animation-name: curtain;
   	animation-duration: 2s;
   	animation-timing-function: linear;
   	animation-fill-mode: forwards;
   	animation-iteration-count: 1;
-}
+}*/
 
 
 @keyframes rotation {
@@ -435,3 +464,11 @@ body{
 	}
 }
 
+@keyframes curtainauto {
+	0% {
+		left: -70px;
+	}
+	100% {
+		left: -1468px;
+	}
+}
