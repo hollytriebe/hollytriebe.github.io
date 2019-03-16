@@ -16,6 +16,7 @@ $(document).ready(function(){
 	 	$(".flashboxleft").addClass("active");
 	 	$(".flashboxright").addClass("active");
 	 	$(".strip").addClass("active");
+	 	$(".redline").addClass("active");
 	 		setTimeout(function(){
 	 			$("audio").get(0).play(); 
 	 		},9100);
@@ -27,6 +28,7 @@ $(document).ready(function(){
 	 		$(".flashboxleft").removeClass("active");
 	 		$(".flashboxright").removeClass("active");
 	 		$(".strip").removeClass("active");
+	 		$(".redline").removeClass("active");
   		}, 19000);
 	 })
 });
