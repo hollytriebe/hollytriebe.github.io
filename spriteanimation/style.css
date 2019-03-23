@@ -83,7 +83,7 @@ body {
 .hero.jumping {
   background-image: url("./img/jumping-sprite.png");
   animation-name: spriteSheet;
-  animation-duration: 1000ms;
+  animation-duration: 800ms;
   animation-timing-function: steps(4); /* number of frames in sprite (not counting the final blank space) */
 }
 
@@ -91,7 +91,7 @@ body {
   background-image: url("./img/attacking-sprite.png");
   animation-name: spriteSheet;
   animation-duration: 600ms;  /* set to same number in initialize() as well or it will look weird */
-  animation-timing-function: steps(4); /* number of frames in sprite (not counting the final blank space) */
+  animation-timing-function: steps(7); /* number of frames in sprite (not counting the final blank space) */
 }
 
 .monster {
@@ -115,6 +115,10 @@ body {
   top: -99999px;
   opacity: 0;
   pointer-events: none;
+}
+
+.monster.was.hit{
+  opacity: 0;
 }
 
 @keyframes spriteSheet {
