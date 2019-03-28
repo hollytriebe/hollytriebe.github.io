@@ -106,8 +106,6 @@ body {
   animation-duration: 800ms;
   animation-timing-function: steps(4); /* number of frames in sprite (not counting the final blank space) */
   animation-iteration-count: infinite;  
-  transition-property: right;
-  transition-timing-function: linear;
   pointer-events: none;
 } 
 
@@ -121,6 +119,7 @@ body {
 
 .monster.was-hit {
   opacity: 0;
+  transition: 250ms;
 }
 
 .score {
