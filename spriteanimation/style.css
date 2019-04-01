@@ -26,8 +26,10 @@ body {
   line-height: 30px;
   font-size: 16px;
   text-align: center;
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: bold;
+  font-family: prohibition, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 1px;
   color: white;
   opacity: 0;
   z-index: 10;
@@ -107,6 +109,7 @@ body {
   animation-timing-function: steps(4); /* number of frames in sprite (not counting the final blank space) */
   animation-iteration-count: infinite;  
   pointer-events: none;
+  
 } 
 
 .preload-image {
@@ -131,10 +134,11 @@ body {
   background-repeat: no-repeat;
   width: 73px;
   height: 74px;
-  line-height: 74px;
+  line-height: 70px;
   color: white;
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: bold;
+  font-family: prohibition, sans-serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 22px;
   text-align: center;
 

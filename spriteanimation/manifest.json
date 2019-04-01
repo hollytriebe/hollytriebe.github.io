@@ -1,0 +1,15 @@
+{
+  "name": "Caretaker",
+  "short_name": "Caretaker",
+  "lang": "en-US",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "orientation": "landscape",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }  
+  ]
+}
