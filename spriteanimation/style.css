@@ -121,9 +121,9 @@ body {
 }
 
 .monster.was-hit {
-  opacity: 1;
-  transition: 250ms;
-  bottom: 0;
+  opacity: 0;
+  transition: opacity 500ms ease-in, bottom 500ms ease-in;
+  bottom:30px !important;
 }
 
 .score {
