@@ -3,12 +3,24 @@ html, body {
   margin: 0px;
 }
 
+html{
+	background-color: black;
+}
+
+body{
+	position: relative;
+	max-width: 450px;
+	margin: 0 auto;
+	background-color: rgb(247,246,246);
+}
+
 .bgbox{
+	display: none;
 	position: fixed;
 	top: 0;
 	left: 0;
-	width: 100vw;
-	height: 100vh;
+	width: 100%;
+	height: 100%;
 	background-color: rgb(247,246,246);
 	background-size: contain;
 	background-position: center;
@@ -16,30 +28,54 @@ html, body {
 
 .yellowbox{
 	position: absolute;
+	max-width: 450px;
 	top: 0px;
 	left: 0px;
-	width: 100vw;
-	height: 125px;
+	width: 100%;
+	height: 67px;
 	background-color: rgb(250, 221, 113); 
 
 }
 
+/*.yellowboxhome{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100vw;
+	height: 172px;
+	background-color: rgb(250, 221, 113);
+}*/
+
 .look{ 
 	position: absolute; 
-	top: -72px;
-	left: 284px;
+	max-width: 450px;
+	top: 12px;
+	left: 0px;
+	width: 100%;
 	font-family: baskerville-display-pt, serif;
 	font-weight: 700;
 	font-style: normal;
-	font-size: 85px;
+	font-size: 32px;
 	text-align: center;
 	color: black;
+}
 
+.lookhome{ 
+	position: absolute; 
+	top: -72px;
+	left: 184px;
+	font-family: baskerville-display-pt, serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 118px;
+	text-align: center;
+	color: black;
 }
 
 .cover{
 	position: relative;
-	margin-top: 125px;
+	margin-top: 67px;
+	width: 100%;
 	/*position: absolute;
 	top: 125px;*/
 }
@@ -49,9 +85,9 @@ h1{
 	font-family: baskerville-display-pt, serif;
 	font-weight: 700;
 	font-style: normal;
-	font-size: 83px;
+	font-size: 32px;
 	text-align: center;
-	margin-top: 85px;
+	margin-top: 30px;
 	/*left: 65px;*/
 
 }
@@ -67,47 +103,48 @@ h2{
 	font-family: gill-sans-nova, sans-serif;
 	font-weight: 100;
 	font-style: normal;
-	font-size: 57px;
+	font-size: 25px;
 	text-align: center;
-	margin-top: -40px;
+	margin-top: -19px;
+	margin-bottom: 30px;
 	/*top: 949px;
 	left: 311px;*/
 }
 
 p{
 	position: relative;
-	margin-top: 40px;
-	margin-left: 70px;
+	margin-top: 18px;
 	margin-bottom: 0px;
-	width: 85vw;
+	margin-left: 7.5%;
+	width: 85%;
 	font-family: gill-sans-nova, sans-serif;
 	font-weight: 100;
 	font-style: normal;
-	font-size: 32px;
+	font-size: 20px;
 	
 }
 
 .pullquote{
-	font-size: 70px;
+	font-size: 29px;
 	font-family: baskerville-display-pt, serif;
 	font-weight: 700;
 	font-style: normal;
-	margin-bottom: 75px;
-	margin-top: 75px;
+	margin-bottom: 25px;
+	margin-top: 25px;
 
 }
 
 .links{
 	position: relative;
-	margin-top: 80px
+	margin-top: 28px;
+	width: 100%;
 }
 
 .homebg{
-	position: fixed;
+	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100vw;
-	height: 100vh;
 	background-size: contain;
 	background-position: center;
 }
@@ -143,12 +180,15 @@ p{
 
 .homelink{
 	position: relative;
-	margin-top: 20px;
+	margin-top: 1.8vw;
+	width: 100%;
 }
 
 .coverlinks{
 	position: absolute;
-	top: 984px;
+	top: 99vw;
+	left: 0px;
+	width: calc(100% - 18.1vw);
 }
 
 .practicesidebox{
@@ -162,107 +202,160 @@ p{
 }
 
 .gwshiftA{
-	margin-left: 260px;
+	width: 62.5%;
+	margin-left: 30%;
 	/*width: 68vw;
 	font-size: 48.5px;*/
 }
 
 .winosideA{
 	position: absolute;
-	margin-right: 20px;
-	top: 1889px;
+	top: 0px;
 	left: 0px;
+	width: calc(30% - 22px);
+	margin-top: 18px;
 }
-
-
 
 .winosideB{
 	position: absolute;
-	top: 5013px;
-	left: 790px;
-	
+	top: 0px;
+	right: 0px;
+	width: calc(30% - 22px);
+	margin-top: 18px;
 }
 
 .winosideC{
 	position: absolute;
-	top: 9407px;
+	top: 0px;
+	left: 0px;
+	width: calc(30% - 22px);
+	margin-top: 18px;
 }
 
 .franksideA{
 	position: absolute;
-	top: 1837px;
+	top: 0px;
 	left: 0px;
+	width: calc(30% - 22px);
+	margin-top: 18px;
 }
 
 .franksideB{
 	position: absolute;
-	left: 790px;
-	top: 7521px;
+	top: 0px;
+	right: 0px;
+	width: calc(30% - 22px);
+	margin-top: 18px;
 }
 
 .franksideC{
 	position: absolute;
-	top: 10566px;
+	top: 0px;
 	left: 0px;
+	width: calc(30% - 22px);
+	margin-top: 18px;
 }
 
 .maiersideA{
 	position: absolute;
-	top: 2142px;
+	top: 0px;
 	left: 0px;
+	width: calc(30% - 22px);
+	margin-top: 18px;
 }
 
 .maiersideB{
 	position: absolute;
-	top: 4844px;
-	left: 790px;
+	top: 0px;
+	right: 0px;
+	width: calc(30% - 22px);
+	margin-top: 18px;
 }
 
 .maiersideC{
 	position: absolute;
-	top: 6845px;
+	top: 0px;
 	left: 0px;
+	width: calc(30% - 22px);
+	margin-top: 18px;
 }
 
 .levittsideA{
 	position: absolute;
-	top: 1487px;
+	top: 0px;
 	left: 0px;
+	width: calc(30% - 22px);
+	margin-top: 18px;
 }
 
 .levittsideB{
 	position: absolute;
-	top: 4213px;
-	left: 790px;
+	top: 0px;
+	right: 0px;
+	width: calc(30% - 22px);
+	margin-top: 18px;
 }
 
 .levittsideC{
 	position: absolute;
-	top: 9126px;
+	top: 0px;
 	left: 0px;
+	width: calc(30% - 22px);
+	margin-top: 18px;
 }
 
 .streetsideA{
 	position: absolute;
-	top: 2136px;
+	top: 0px;
 	left: 0px;
+	width: calc(30% - 22px);
+	margin-top: 18px;
 }
 
 .streetsideB{
 	position: absolute;
-	top: 6108px;
-	left: 790px;
+	top: 0px;
+	right: 0px;
+	width: calc(30% - 22px);
+	margin-top: 18px;
 }
 
 .streetsideC{
 	position: absolute;
-	top: 8762px;
+	top: 0px;
 	left: 0px;
+	width: calc(30% - 22px);
+	margin-top: 18px;
+	/*position: absolute;
+	top: 8762px;
+	left: 0px;*/
+
+}
+
+.stwrapperA{
+	position: relative;
+	overflow-y: hidden;
+}
+
+
+.stwrapperB{
+	position: relative;
+	overflow-y: hidden;
+
+}
+
+.stwrapperB p{
+	width: 62.5%;
+}
+
+.stwrapperC{
+	position: relative;
+	overflow-y: hidden;
 }
 
 .gallery{
 	position: relative;
-	margin-top: 80px;
+	margin-top: 28px;
 	width: 980px;
 	height: 300px;
 }
@@ -282,7 +375,7 @@ p{
 
 .gallery2{
 	position: relative;
-	margin-top: 80px;
+	margin-top: 28px;
 	width: 980px;
 	height: 300px;
 }
