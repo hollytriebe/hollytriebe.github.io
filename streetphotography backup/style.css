@@ -1,0 +1,338 @@
+html, body {
+  overflow-x: hidden;
+  margin: 0px;
+}
+
+.bgbox{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgb(247,246,246);
+	background-size: contain;
+	background-position: center;
+}
+
+.yellowbox{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100vw;
+	height: 125px;
+	background-color: rgb(250, 221, 113); 
+
+}
+
+.yellowboxhome{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100vw;
+	height: 172px;
+	background-color: rgb(250, 221, 113);
+}
+
+.look{ 
+	position: absolute; 
+	top: -72px;
+	left: 284px;
+	font-family: baskerville-display-pt, serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 85px;
+	text-align: center;
+	color: black;
+}
+
+.lookhome{ 
+	position: absolute; 
+	top: -72px;
+	left: 184px;
+	font-family: baskerville-display-pt, serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 118px;
+	text-align: center;
+	color: black;
+}
+
+.cover{
+	position: relative;
+	margin-top: 125px;
+	/*position: absolute;
+	top: 125px;*/
+}
+
+h1{
+	position: relative;
+	font-family: baskerville-display-pt, serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 83px;
+	text-align: center;
+	margin-top: 85px;
+	/*left: 65px;*/
+
+}
+
+.pic{
+	width: 980px;
+	height: 675px;
+	background-color: black;
+}
+
+h2{
+	position: relative;
+	font-family: gill-sans-nova, sans-serif;
+	font-weight: 100;
+	font-style: normal;
+	font-size: 57px;
+	text-align: center;
+	margin-top: -40px;
+	/*top: 949px;
+	left: 311px;*/
+}
+
+p{
+	position: relative;
+	margin-top: 40px;
+	margin-left: 70px;
+	margin-bottom: 0px;
+	width: 85vw;
+	font-family: gill-sans-nova, sans-serif;
+	font-weight: 100;
+	font-style: normal;
+	font-size: 32px;
+	
+}
+
+.pullquote{
+	font-size: 70px;
+	font-family: baskerville-display-pt, serif;
+	font-weight: 700;
+	font-style: normal;
+	margin-bottom: 75px;
+	margin-top: 75px;
+
+}
+
+.links{
+	position: relative;
+	margin-top: 80px
+}
+
+.homebg{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-size: contain;
+	background-position: center;
+}
+
+.yellowboxhome{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 127vw;
+	height: 75px;
+	background-color: rgb(250, 221, 113); 
+}
+
+.lookhome{
+	position: absolute; 
+	top: -80px;
+	left: 96px;
+	font-family: baskerville-display-pt, serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 54px;
+	text-align: center;
+}
+
+.homebox{
+	position: absolute;
+	height: 90px;
+	width: 389px;
+	top: 495px;
+
+	background-color: black;
+}
+
+.homelink{
+	position: relative;
+	margin-top: 20px;
+}
+
+.coverlinks{
+	position: absolute;
+	top: 984px;
+}
+
+.practicesidebox{
+	position: absolute;
+	margin-right: 20px;
+	width: 190px;
+	height: 1500px;
+	top: 8762px;
+	left: 90px; 
+	background-color: blue;
+}
+
+.gwshiftA{
+	margin-left: 260px;
+	/*width: 68vw;
+	font-size: 48.5px;*/
+}
+
+.winosideA{
+	position: absolute;
+	margin-right: 20px;
+	top: 1889px;
+	left: 0px;
+}
+
+
+
+.winosideB{
+	position: absolute;
+	top: 5013px;
+	left: 790px;
+	
+}
+
+.winosideC{
+	position: absolute;
+	top: 9407px;
+}
+
+.franksideA{
+	position: absolute;
+	top: 1837px;
+	left: 0px;
+}
+
+.franksideB{
+	position: absolute;
+	left: 790px;
+	top: 7521px;
+}
+
+.franksideC{
+	position: absolute;
+	top: 10566px;
+	left: 0px;
+}
+
+.maiersideA{
+	position: absolute;
+	top: 2142px;
+	left: 0px;
+}
+
+.maiersideB{
+	position: absolute;
+	top: 4844px;
+	left: 790px;
+}
+
+.maiersideC{
+	position: absolute;
+	top: 6845px;
+	left: 0px;
+}
+
+.levittsideA{
+	position: absolute;
+	top: 1487px;
+	left: 0px;
+}
+
+.levittsideB{
+	position: absolute;
+	top: 4213px;
+	left: 790px;
+}
+
+.levittsideC{
+	position: absolute;
+	top: 9126px;
+	left: 0px;
+}
+
+.streetsideA{
+	position: absolute;
+	top: 2136px;
+	left: 0px;
+}
+
+.streetsideB{
+	position: absolute;
+	top: 6108px;
+	left: 790px;
+}
+
+.streetsideC{
+	position: absolute;
+	top: 8762px;
+	left: 0px;
+}
+
+.gallery{
+	position: relative;
+	margin-top: 80px;
+	width: 980px;
+	height: 300px;
+}
+
+.smallblue{
+	position: relative;
+	float: left;
+	width: 300px;
+	height: 300px;
+	margin-right: 40px;
+	background-color: blue;
+}
+
+.rightbox{
+	margin-right: 0px;
+}
+
+.gallery2{
+	position: relative;
+	margin-top: 80px;
+	width: 980px;
+	height: 300px;
+}
+
+
+
+/*
+.linkA{
+	top: 11365px;
+}
+
+.linkB{
+	top: 11730px
+}
+
+.linkC{
+	top: 12095px;
+}
+
+.linkE{
+	top: 11000px;
+}
+
+.sideA{
+	position: absolute;
+	height: 700px;
+	width: 100px;
+	background-color: black;
+	top: 500px;
+	left: 700px;
+}
+
+*/
